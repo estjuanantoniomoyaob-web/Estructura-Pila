@@ -25,6 +25,18 @@ La API está disponible en la ruta base `/api/v1`:
 
 ---
 
+## Cómo ejecutar el proyecto Spring Boot (CMD / Terminal)
+
+1. Abre la consola en la raíz de la carpeta del proyecto.
+2. Ejecuta el siguiente comando según tu sistema operativo:
+
+     ```cmd
+     mvnw spring-boot:run
+     ```
+
+3. Una vez que veas en la consola el mensaje `Started ... Application in X seconds`, la aplicación estará activa y disponible en `http://localhost:8080`.
+---
+
 ## Ejemplos de Uso
 
 * **Insertar:** `http://localhost:8080/api/v1/insertar?x=Hola`
