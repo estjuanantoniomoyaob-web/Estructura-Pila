@@ -28,6 +28,7 @@ La API está disponible en la ruta base `/api/v1`:
 ## Ejemplos de Uso
 
 * **Insertar:** `http://localhost:8080/api/v1/insertar?x=Hola`
+* `http://localhost:8080/api/v1/insertar?x=Mundo`
 * **Ver Pila:** `http://localhost:8080/api/v1/ver`
 * **Obtener Tamaño:** `http://localhost:8080/api/v1/tamanyo`
 * **Eliminar:** `http://localhost:8080/api/v1/eliminar`
